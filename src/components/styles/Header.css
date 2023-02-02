@@ -1,0 +1,104 @@
+:root{
+   --color-1: rgb(243, 185, 21);
+   --color-2: rgb(166, 31, 105);
+   --header-bg: rgb(104, 58, 103);
+}
+
+.Header{
+   position: fixed;
+   width: 100%;
+   padding: 30px 0;
+   z-index: 100;
+   /* background: var(--header-bg); */
+   border-bottom: 1px solid var(--color-1);
+   border-radius: 0 0 100px 100px;
+
+   transition: 0.8s cubic-bezier(0.09, 0.8, 0.2, 1);
+
+}
+
+.Header .HeaderGroup img{
+   width: 60px;
+   margin-right: 150px;
+   filter: invert();
+   outline: none;
+   
+}
+
+.HeaderScroll{
+   padding: 20px 0;
+   border-bottom: none;
+   background: linear-gradient(160deg, rgba(243, 185, 21, 0.4)0%, rgba(104, 58, 103, 0.8)100%);
+  
+   /* From https://css.glass */
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4.6px);
+   -webkit-backdrop-filter: blur(4.6px);
+}
+.HeaderScroll .HeaderGroup img{
+   filter: invert(0);
+}
+
+.HeaderScroll .HeaderGroup a{
+   color: black;
+   border: 1px solid rgb(0, 0, 0);
+}
+.HeaderScroll .HeaderGroup a:hover{
+   color: rgb(0, 0, 0);
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.HeaderGroup{
+   max-width: 1000px;
+   margin: 0 auto;
+
+   display: grid;
+   grid-template-columns: repeat(7, auto);
+   justify-items: center;
+   align-items: center;
+   text-decoration: none;
+   font-weight: 600;
+}
+.Header a{
+   color: var(--color-1);
+   border: 1px solid var(--color-1);
+   width: 120px;
+   height: 40px;
+   padding: 10px auto;
+   margin: 0 10px;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+   transition: all .3s ease-out;
+}
+.Header a:hover{
+   color: white;
+   background: var(--color-1);
+   border-radius: 50px;
+}
+.Header .HeaderGroup a:nth-child(1){
+   border: none;
+   background-color: transparent;
+   
+}
+
+@media(max-width: 640px){
+   .Header{
+      padding: 15px 0;
+   }
+   .HeaderGroup{
+      grid-template-columns: repeat(1, auto);
+      justify-items: left;
+      
+   }
+   .Header a:nth-child(1){
+      display: none;
+   }
+   .HeaderGroup a{
+      margin: 10px;
+   }
+}

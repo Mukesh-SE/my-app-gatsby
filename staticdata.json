@@ -1,0 +1,144 @@
+{
+   "cells": [
+      {
+         "id": 1,
+         "name": "Nike Air Max",
+         "price": 150,
+         "brand": "Nike",
+         "category": "Sneakers",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "The iconic Nike Air Max sneakers feature a comfortable fit and sleek design.",
+         "details": {
+           "color": "White/Black",
+           "material": "Leather/Mesh",
+           "sole": "Rubber"
+         }
+      },
+      {
+         "id": 2,
+         "name": "Adidas Ultraboost",
+         "price": 180,
+         "brand": "Adidas",
+         "category": "Running Shoes",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "Experience ultimate comfort and support during your runs with the Adidas Ultraboost shoes.",
+         "details": {
+           "color": "Black/Red",
+           "material": "Mesh/Synthetic",
+           "sole": "Boost"
+         }
+      },
+      {
+         "id": 3,
+         "name": "Converse Chuck Taylor",
+         "price": 65,
+         "brand": "Converse",
+         "category": "Sneakers",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "The classic Converse Chuck Taylor sneakers are a must-have for any casual outfit.",
+         "details": {
+           "color": "Black",
+           "material": "Canvas",
+           "sole": "Rubber"
+         }
+      },
+      {
+         "id": 4,
+         "name": "Puma Cali",
+         "price": 100,
+         "brand": "Puma",
+         "category": "Lifestyle Shoes",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "Make a statement with the stylish Puma Cali shoes, perfect for casual or sporty outfits.",
+         "details": {
+           "color": "White/Green",
+           "material": "Leather/Suede",
+           "sole": "Rubber"
+         }
+      },
+      {
+         "id": 5,
+         "name": "Jordan 1 Retro High",
+         "price": 160,
+         "brand": "Jordan",
+         "category": "Basketball Shoes",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "Elevate your game on the court with the Jordan 1 Retro High basketball shoes.",
+         "details": {
+           "color": "Black/Red",
+           "material": "Leather/Suede",
+           "sole": "Rubber"
+         }
+      },
+      {
+         "id": 6,
+         "name": "Nike Air Max",
+         "price": 150,
+         "brand": "Nike",
+         "category": "Sneakers",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "The iconic Nike Air Max sneakers feature a comfortable fit and sleek design.",
+         "details": {
+           "color": "White/Black",
+           "material": "Leather/Mesh",
+           "sole": "Rubber"
+         }
+      },
+      {
+         "id": 7,
+         "name": "Adidas Ultraboost",
+         "price": 180,
+         "brand": "Adidas",
+         "category": "Running Shoes",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "Experience ultimate comfort and support during your runs with the Adidas Ultraboost shoes.",
+         "details": {
+           "color": "Black/Red",
+           "material": "Mesh/Synthetic",
+           "sole": "Boost"
+         }
+      },
+      {
+         "id": 8,
+         "name": "Converse Chuck Taylor",
+         "price": 65,
+         "brand": "Converse",
+         "category": "Sneakers",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "The classic Converse Chuck Taylor sneakers are a must-have for any casual outfit.",
+         "details": {
+           "color": "Black",
+           "material": "Canvas",
+           "sole": "Rubber"
+         }
+      },
+      {
+         "id": 9,
+         "name": "Puma Cali",
+         "price": 100,
+         "brand": "Puma",
+         "category": "Lifestyle Shoes",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "Make a statement with the stylish Puma Cali shoes, perfect for casual or sporty outfits.",
+         "details": {
+           "color": "White/Green",
+           "material": "Leather/Suede",
+           "sole": "Rubber"
+         }
+      },
+      {
+         "id": 10,
+         "name": "Jordan 1 Retro High",
+         "price": 160,
+         "brand": "Jordan",
+         "category": "Basketball Shoes",
+         "image": "https://t3.ftcdn.net/jpg/02/66/46/14/240_F_266461418_zFfta8iy0T8NjAtgZuQ0siF4JD90RLsG.jpg",
+         "description": "Elevate your game on the court with the Jordan 1 Retro High basketball shoes.",
+         "details": {
+           "color": "Black/Red",
+           "material": "Leather/Suede",
+           "sole": "Rubber"
+         }
+      }
+   ]
+}

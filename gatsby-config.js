@@ -9,12 +9,20 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Fisrt App With Gatsby`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `Mukesh`,
+    keywords: `React, Gatsby, Code, Design`
+    // siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-  plugins: [
+  // new Plugins
+  // plugins: ['Gatsby-pugin-React-helmet'],
+  
+}
+
+// Old Plugins
+/*
+plugins: [
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -40,4 +48,5 @@ module.exports = {
       },
     },
   ],
-}
+*/
+ 
